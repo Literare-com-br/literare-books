@@ -1,0 +1,25 @@
+.scroll-morph{position:relative;height:calc(100svh - 78px + 3000px);background:#fff}
+.scroll-morph .morph-stage{position:sticky;top:78px;height:calc(100svh - 78px);width:100%;overflow:hidden;isolation:isolate}
+.scroll-morph .morph-label{position:absolute;top:28px;left:24px;right:24px;justify-content:center;z-index:3}
+.scroll-morph .morph-collection{position:absolute;left:50%;top:50%;width:0;height:0;perspective:1000px}
+.scroll-morph .morph-card{left:-30px;top:-42.5px;cursor:pointer}
+.scroll-morph .book-flip{position:relative;display:block;width:100%;height:100%;transform-style:preserve-3d;border-radius:12px}
+.scroll-morph .book-front,.scroll-morph .book-back{position:absolute;inset:0;display:block;border-radius:12px;overflow:hidden;backface-visibility:hidden;box-shadow:0 10px 15px -3px #0000001a,0 4px 6px -4px #0000001a;background:#0000000a}
+.scroll-morph .book-front img{width:100%;height:100%;object-fit:cover}
+.scroll-morph .book-shade{position:absolute;inset:0;background:#0000001a;transition:background .2s}
+.scroll-morph .book-flip:hover .book-shade{background:transparent}
+.scroll-morph .book-back{transform:rotateY(180deg);background:#000;border:1px solid #fff3;display:flex;flex-direction:column;justify-content:center;align-items:center;padding:8px;text-align:center;color:#fff;gap:5px}
+.scroll-morph .book-back>span:first-child{font:700 7px Poppins,sans-serif;letter-spacing:1px;color:var(--yellow)}
+.scroll-morph .book-back>span:last-child{font:500 10px Poppins,sans-serif}
+.scroll-morph .book-pending{display:grid;place-items:center;height:100%;padding:8px;text-align:center;font-size:8px;color:#0008}
+.scroll-morph .morph-opening{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);width:100%;z-index:0;text-align:center;pointer-events:none}
+.scroll-morph .morph-opening h2{font-size:36px;line-height:1.12;letter-spacing:-.045em}
+.scroll-morph .morph-opening p{font-size:10px;font-weight:700;letter-spacing:.2em;line-height:1.5;color:#0008;margin-top:16px}
+.scroll-morph .morph-closing{position:absolute;top:10%;left:0;right:0;margin:auto;padding:0 20px;max-width:850px;text-align:center;z-index:2;pointer-events:none}
+.scroll-morph .morph-closing h2{font-size:clamp(30px,3.5vw,48px);line-height:1.12;margin:0 auto 16px;max-width:760px}
+.scroll-morph .morph-closing p{font-size:14px;line-height:1.8;max-width:510px;margin:auto}
+.scroll-morph.is-still{height:auto}
+.scroll-morph.is-still .morph-stage{position:relative;top:0}
+@media(max-width:767px){.scroll-morph .morph-opening h2{font-size:clamp(18px,4.8vw,24px)}.scroll-morph .morph-opening p{font-size:7px;letter-spacing:.15em;margin-top:12px}.scroll-morph .morph-label{font-size:8px;top:25px}.scroll-morph .morph-closing h2{font-size:30px;max-width:370px}.scroll-morph .morph-closing p{font-size:11px;max-width:350px}}
+@media(max-width:374px){.scroll-morph .morph-opening h2{font-size:18px}.scroll-morph .morph-closing h2{font-size:27px}}
+@media(prefers-reduced-motion:reduce){.scroll-morph .book-flip{transform:none!important}}

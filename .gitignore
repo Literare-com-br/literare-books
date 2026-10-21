@@ -1,0 +1,29 @@
+# Dependências
+node_modules/
+
+# Ferramentas locais
+.local-tools/
+.vercel/
+
+# Build
+dist/
+build/
+*.tsbuildinfo
+
+# Testes e relatórios
+qa-results/
+coverage/
+.tmp/
+
+# Variáveis de ambiente
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs
+*.log
+
+# Sistema operacional
+.DS_Store
+Thumbs.db

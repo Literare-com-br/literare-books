@@ -1,0 +1,4 @@
+# Endpoint is public by design; Turnstile is verified in the handler and direct
+# SQL INSERT is revoked by 202610210002. No user JWT is required to send contact.
+[functions.submit-contact]
+verify_jwt = false

@@ -1,0 +1,8 @@
+.blur-word,.blur-letter{display:inline-block}.blur-word{white-space:nowrap}
+.blur-reveal{overflow-wrap:normal}.blur-visual{white-space:inherit}
+[data-reveal=pending]>.blur-visual .blur-letter{opacity:0;filter:blur(var(--reveal-blur,12px));transform:translateY(10px)}
+[data-reveal=running]>.blur-visual .blur-letter{animation:literare-reveal var(--reveal-duration,.6s) ease-out var(--reveal-delay,0s) both}
+[data-reveal=done]>.blur-visual .blur-letter{opacity:1;filter:none;transform:none}
+.blur-reveal:focus-within>.blur-visual .blur-letter{animation:none!important;opacity:1!important;filter:none!important;transform:none!important}
+@keyframes literare-reveal{from{opacity:0;filter:blur(var(--reveal-blur,12px));transform:translateY(10px)}to{opacity:1;filter:blur(0);transform:translateY(0)}}
+@media(prefers-reduced-motion:reduce){.blur-letter{animation:none!important;opacity:1!important;filter:none!important;transform:none!important}}

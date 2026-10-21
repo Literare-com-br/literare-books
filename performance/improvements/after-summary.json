@@ -1,0 +1,261 @@
+{
+  "phase": "after",
+  "environment": "Local production preview; Supabase disabled; mobile Lighthouse defaults; one sample per route",
+  "assets": [
+    {
+      "name": "AdminCoauthorsPage-BVsrdu3V.js",
+      "bytes": 9119,
+      "gzip": 3224
+    },
+    {
+      "name": "animation-a3sj5zmn.js",
+      "bytes": 114013,
+      "gzip": 45155
+    },
+    {
+      "name": "auth-section-1-BErpcgFW.css",
+      "bytes": 2689,
+      "gzip": 977
+    },
+    {
+      "name": "auth-section-1-CFcAKk2x.js",
+      "bytes": 4344,
+      "gzip": 1996
+    },
+    {
+      "name": "AuthRoutes-eXpDdfWN.js",
+      "bytes": 2597,
+      "gzip": 1251
+    },
+    {
+      "name": "Catalog-DwUQyKL_.js",
+      "bytes": 6254,
+      "gzip": 2286
+    },
+    {
+      "name": "coauthors-CnvIwUJz.css",
+      "bytes": 10100,
+      "gzip": 2738
+    },
+    {
+      "name": "coauthors-D4dA58TD.js",
+      "bytes": 2934,
+      "gzip": 1318
+    },
+    {
+      "name": "CoauthorsPage-gGGx0bqQ.js",
+      "bytes": 6721,
+      "gzip": 2530
+    },
+    {
+      "name": "Configuration-BQrzMyNP.js",
+      "bytes": 3188,
+      "gzip": 1375
+    },
+    {
+      "name": "contact-areas-bks_raTq.js",
+      "bytes": 292,
+      "gzip": 218
+    },
+    {
+      "name": "contact-xlsx-YKJOPXkR.js",
+      "bytes": 3421,
+      "gzip": 1380
+    },
+    {
+      "name": "Contacts-UK4LQARl.js",
+      "bytes": 9321,
+      "gzip": 3654
+    },
+    {
+      "name": "ContactSection-BFcfk0Ii.js",
+      "bytes": 6568,
+      "gzip": 2486
+    },
+    {
+      "name": "Content-B_Jjoq2M.js",
+      "bytes": 5150,
+      "gzip": 2162
+    },
+    {
+      "name": "content-defaults-CZvKpQiz.js",
+      "bytes": 2415,
+      "gzip": 1150
+    },
+    {
+      "name": "createLucideIcon-DzQVWner.js",
+      "bytes": 894,
+      "gzip": 553
+    },
+    {
+      "name": "Dashboard-BfeSETx1.css",
+      "bytes": 14834,
+      "gzip": 3755
+    },
+    {
+      "name": "Dashboard-q18JWZck.js",
+      "bytes": 19055,
+      "gzip": 7231
+    },
+    {
+      "name": "Footer-MBg4_KEZ.js",
+      "bytes": 7793,
+      "gzip": 2821
+    },
+    {
+      "name": "forms-CiHsILeP.js",
+      "bytes": 117117,
+      "gzip": 36164
+    },
+    {
+      "name": "HomePage-Bk7Py5uR.js",
+      "bytes": 36365,
+      "gzip": 12837
+    },
+    {
+      "name": "HomePage-k3NkGkKa.css",
+      "bytes": 4375,
+      "gzip": 1218
+    },
+    {
+      "name": "index-C0Om6kUb.js",
+      "bytes": 3655,
+      "gzip": 1758
+    },
+    {
+      "name": "index-D3KX-Wwn.css",
+      "bytes": 27739,
+      "gzip": 6730
+    },
+    {
+      "name": "login-gradient-I_A8jEN8.js",
+      "bytes": 54396,
+      "gzip": 28673
+    },
+    {
+      "name": "Members-C8Wr66sg.js",
+      "bytes": 4139,
+      "gzip": 1788
+    },
+    {
+      "name": "motion-CXRzHXZZ.js",
+      "bytes": 162936,
+      "gzip": 55465
+    },
+    {
+      "name": "Overview-Cnae38Be.js",
+      "bytes": 3930,
+      "gzip": 1670
+    },
+    {
+      "name": "phone-scroll-hero-BYZSTALm.js",
+      "bytes": 1755,
+      "gzip": 809
+    },
+    {
+      "name": "plus-24cxbwNG.js",
+      "bytes": 161,
+      "gzip": 158
+    },
+    {
+      "name": "react-vendor-U5k3hGY-.js",
+      "bytes": 260743,
+      "gzip": 82944
+    },
+    {
+      "name": "Reports-CUO66sel.js",
+      "bytes": 4339,
+      "gzip": 2020
+    },
+    {
+      "name": "responsive-image-D9arTkQh.js",
+      "bytes": 10536,
+      "gzip": 2509
+    },
+    {
+      "name": "scroll-morph-hero-BD4dEOTQ.css",
+      "bytes": 2992,
+      "gzip": 1007
+    },
+    {
+      "name": "scroll-morph-hero-CoQV2_UP.js",
+      "bytes": 6224,
+      "gzip": 2822
+    },
+    {
+      "name": "siteContent-FzXcBkAx.js",
+      "bytes": 674,
+      "gzip": 411
+    },
+    {
+      "name": "supabase-config-B5ijsi7P.js",
+      "bytes": 808,
+      "gzip": 486
+    },
+    {
+      "name": "supabase-DQWGlerm.js",
+      "bytes": 224199,
+      "gzip": 58854
+    },
+    {
+      "name": "timeline-BNJ53LdU.js",
+      "bytes": 10998,
+      "gzip": 4891
+    },
+    {
+      "name": "timeline-D4ykdHWC.css",
+      "bytes": 2973,
+      "gzip": 997
+    },
+    {
+      "name": "use-dashboard-query-vEkZ98Ss.js",
+      "bytes": 582,
+      "gzip": 350
+    },
+    {
+      "name": "use-debounced-value-CWmytGOZ.js",
+      "bytes": 213,
+      "gzip": 181
+    },
+    {
+      "name": "validation-BtTI4edC.js",
+      "bytes": 57,
+      "gzip": 77
+    }
+  ],
+  "pages": [
+    {
+      "name": "home",
+      "performance": 0.89,
+      "accessibility": 1,
+      "seo": 1,
+      "FCP": 2274.3646249999997,
+      "LCP": 3222.8375499999997,
+      "TBT": 134,
+      "CLS": 0.0001144563059351046,
+      "transfer": 263068
+    },
+    {
+      "name": "coauthors",
+      "performance": 0.84,
+      "accessibility": 1,
+      "seo": 1,
+      "FCP": 2350.8725,
+      "LCP": 4050.83,
+      "TBT": 0,
+      "CLS": 0,
+      "transfer": 326979
+    },
+    {
+      "name": "login",
+      "performance": 0.75,
+      "accessibility": 1,
+      "seo": 0.63,
+      "FCP": 2123.222875,
+      "LCP": 3040.66745,
+      "TBT": 689,
+      "CLS": 0,
+      "transfer": 267171
+    }
+  ]
+}
